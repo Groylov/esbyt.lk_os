@@ -1,0 +1,194 @@
+/* 
+  Localizable.strings
+  mobile
+
+  Created by Groylov on 26/12/2018.
+  Copyright © 2018 esbyt. All rights reserved.
+*/
+
+// ====================================================
+// Форма авторизации пользователя (LoginViewController)
+
+// Окно вывода сообщений
+"LoginVC_messageTitle" = "Авторизация";
+"LoginVC_messageButtonOkTitle" = "Ок";
+"LoginVC_messageButtonYesTitle" = "Да";
+"LoginVC_messageButtonNoTitle" = "Нет";
+
+// Выводимые сообщения пользователю
+"LoginVC_errorOpenFormEntorPassword" = "Попытка авторизации вызвала критическую ошибку";
+"LoginVC_errorEnterAccountEdit" = "Введите номер лицевого счета";
+"LoginVC_errorEnterPasswordEdit" = "Введите пароль от личного кабинета";
+"LoginVC_errorCreateAccount" = "Ошибка создания пользователя";
+"LoginVC_errorReadAccountPassword" = "Ошибка чтения данных Логина и Пароля";
+"LoginVC_errorAuthUsers" = "Ошибка авторизации в приложение";
+"LoginVC_errorEnterPassword" = "Не верная пара лицевой счет - пароль приложения";
+"LoginVC_errorEnterPassword3" = "Вы ввели не верный пароль 3 раза. При следующей не верной попытке авторизация приложения будет сброшена.";
+"LoginVC_enterCode" = "На указанные данные прийдет код подтверждения.";
+
+
+// Вспомогательные поля
+"LoginVC_phoneCallNumber" = "tel://+73022231123";
+"LoginVC_siteOpenAdress" = "http://e-sbyt.ru";
+
+// ====================================================
+// Форма регистрации пользователя (RegistrationViewController)
+
+// Окно вывода сообщений
+"RegistrationVC_messageTitle" = "Регистрация";
+"RegistrationVC_messageButtonOkTitle" = "Ок";
+
+// Выводимые сообщения пользователю
+"RegistrationVC_registration" = "Регистрация выполнена. На почту и телефон прийдет пароль доступа в кабинет";
+
+// Вспомогательные поля
+"RegistrationVC_registerRulesFile" = "https://lk.e-sbyt.ru/static/files/register_rules.pdf";
+"RegistrationVC_agreementFile" = "https://lk.e-sbyt.ru/static/files/agreement.pdf";
+
+// ====================================================
+// Форма регистрации пользователя (RecoveryPassViewController)
+
+// Окно вывода сообщений
+"RecoveryPassVC_messageTitle" = "Восстановление пароля";
+"RecoveryPassVC_messageButtonOkTitle" = "Ок";
+
+// Выводимые сообщения пользователю
+"RecoveryPassVC_errorEnterAccount" = "Не указан лицевой счет";
+
+// ====================================================
+// Форма настроек программы (SettingsOneViewController и SettingsViewController)
+
+// Окно вывода сообщений
+"SettingsVC_messageTitle" = "Настройки";
+"SettingsVC_messageButtonOkTitle" = "Ок";
+
+// Выводимые сообщения пользователю
+"SettingsVC_errorOpenFormEntorPassword" = "Попытка авторизации вызвала критическую ошибку";
+"SettingsVC_errorAuthUsers" = "Ошибка сохранения настроек";
+"SettingsVC_errorOpenMainVC" = "Ошибка открытия основного окна";
+
+// Надписи авторизации пользователя
+"SettingsVC_TouchID" = "Использовать Touch ID";
+"SettingsVC_FaceID" = "Использовать Face ID";
+
+// ====================================================
+// Форма основного tab bar (MainTabBarController)
+
+// Овно вывода сообщений
+"MainTabBarC_messageTitle" = "Читаэнергосбыт";
+"MainTabBarC_messageButtonOkTitle" = "Ок";
+
+// Выводимые сообщения пользователя
+"MainTabBarC_ErrorCurrenAccount" = "Ошибка чтения текущего лицевого счета";
+"MainTabBarC_ErrorReadDataUsers" = "Ошибка получения настроек пользователей системы";
+
+// ====================================================
+// Форма основного окна (MainWorkViewController)
+
+// Овно вывода сообщений
+"MainWorkVC_messageTitle" = "Читаэнергосбыт";
+"MainWorkVC_messageButtonOkTitle" = "Ок";
+
+// ====================================================
+// Форма обратной связи (FeedbackViewController)
+
+// Окно вывода сообщений
+"FeedbackVC_messageTitle" = "Заявки";
+"FeedbackVC_messageButtonOkTitle" = "Ок";
+
+// Выводимые сообщения пользователя
+"FeedbackVC_ErrorEnterEmail" = "Не указан адрес электронной почты";
+"FeedbackVC_ErrorEnterPhone" = "Не указан номер телефона";
+"FeedbackVC_ErrorMessageText" = "Не заполнен текст рбращения";
+"FeedbackVC_ErrorSendMessage" = "Ошибка отправки сообщения на сервер";
+"FeedbackVC_SendMessage" = "Ваша заявка успешно принята";
+
+
+// ====================================================
+// Форма проведения оплаты
+
+// Окно вывода сообщений
+"CreatePaymentVC_messageTitle" = "Оплата";
+"CreatePaymentVC_messageButtonOkTitle" = "Ок";
+
+// Выводимые сообщения пользователя
+"CreatePaymentVC_ErrorItogSummMin" = "Сумма оплаты меньше минимальной";
+"CreatePaymentVC_ErrorItogSummMax" = "Сумма оплаты больше максимальной";
+"CreatePaymentVC_ErrorReadUrlResult" = "Ошибка получения ссылки для завершения оплаты";
+"CreatePaymentVC_ErrorReadItogSumm" = "Ошибка распределения сумм оплаты по услугам";
+
+// ====================================================
+// Форма добавления нового показания (AddIndicationViewController)
+
+// Окно вывода сообщений
+"AddIndicationVC_messageTitle" = "Показания";
+"AddIndicationVC_messageButtonOkTitle" = "Ок";
+
+// Сообщения ошибок при вводе нового показания
+"AddIndication_NegativeConsumption" = "Отрицательный расход";
+"AddIndication_ZeroConsumption" = "Нулевой расход";
+"AddIndication_TallConsumption" = "Среднесуточный расход превышает 20 Кв";
+"AddIndication_ErrorDataValue" = "Не верный формат показания";
+
+// Сообщения ошибок при передачи новго показания
+"AddIndicationVC_ErrorReadUserToken" = "Ошибка получения идентификатора пользователя.";
+"AddIndicationVC_ErrorConvertCountval" = "Ошибка отправки показания.";
+"AddIndicationVC_SendNewIndication" = "Показание успешно отправленно.";
+
+// ====================================================
+// Форма отправки кода подтверждения (VerificationCodeViewController)
+
+"VerificationCodeVС_messageTitle" = "Отправка кода";
+"VerificationCodeVС_messageButtonOkTitle" = "Ок";
+
+// Сообщения ошибок при передачи кода
+"VerificationCodeVС_errorAccount" = "Нет лицевого счета для отправки кода.";
+"VerificationCodeVС_sendCodeOk" = "Код успешно отправлен.";
+"VerificationCodeVС_errorSendCode" = "Отправлен не верный код";
+
+// ====================================================
+// Форма списка пользователей (ChangeUserViewController)
+
+"ChangeUserVC_messageTitle" = "Пользователи";
+"ChangeUserVC_messageOK" = "OK";
+"ChangeUserVC_messageCancel" = "Отмена";
+"ChangeUserVC_messageButtonOkTitle" = "OK";
+
+// 
+
+// ====================================================
+// Модуль работы с бэк-офисом (BackOfficeManager.swift)
+
+// URL запроса для получения всех данных по лицевому счету
+"BackOffice_getFullDataAccount_url" = "https://e-sbyt.ru/billing/lk/api2/get_full_info?format=json";
+// URL запроса для авторизации пользователя и получения токена
+"BackOffice_authAccount_url" = "https://e-sbyt.ru/billing/lk/api2/token?format=json";
+// URL запроса для отправки сообщения заявки
+"BackOffice_sendFeedbackMessage_url" = "https://e-sbyt.ru/billing/lk/api2/feedback?format=json";
+// URL запроса для создания оплаты по Чите
+"BackOffice_createPaymentChita_url" = "https://e-sbyt.ru/billing/vseplat/acquire/create?format=json";
+// URL запроса для создания оплаты по Бурятии
+"BackOffice_createPaymentBur_url" = "https://e-sbyt.ru/billing/sber/acquire/create?format=json";
+// URL запроса для создания показания
+"BackOffice_createIndication_url" = "https://e-sbyt.ru/billing/lk/api2/set_statement?format=json";
+// URL запроса для регистрации пользователя
+"BackOffice_registration_url" = "https://e-sbyt.ru/billing/lk/api2/registration?format=json";
+
+// URL запроса по отправке проверочного кода
+"BackOffice_checkConfirmCode_url" = "https://e-sbyt.ru/billing/lk/api2/check_confirm_code?format=json";
+
+"BackOfficeMobileReturnErrorCode_0" = "Ошибки отсутствуют";
+"BackOfficeMobileReturnErrorCode_1" = "Ошибка формирования URL для запроса к серверу";
+"BackOfficeMobileReturnErrorCode_2" = "Не удалось получить данные с сервера";
+"BackOfficeMobileReturnErrorCode_3" = "Ошибка чтения данных по лицевому из файла сервера";
+"BackOfficeMobileReturnErrorCode_4" = "Ошибка копирования файла с сервера";
+"BackOfficeMobileReturnErrorCode_5" = "Ошибка чтения данных из файла";
+"BackOfficeMobileReturnErrorCode_6" = "Ошибка чтения файла JSON";
+"BackOfficeMobileReturnErrorCode_7" = "Ошибка чтения словаря JSON";
+"BackOfficeMobileReturnErrorCode_8" = "Ошибка чтения данных авторизации от сервера";
+"BackOfficeMobileReturnErrorCode_9" = "Ошибка получения URL для проведения оплаты";
+
+
+
+
+
